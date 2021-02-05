@@ -1,0 +1,42 @@
+section{
+    padding: 100px 0;
+}
+.about{
+    font-family: 'Poppins';
+}
+.about .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu';
+}
+.about .title::before{
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 4px;
+    background: #111;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.about .title::after{
+    content: "Who I am";
+    position: absolute;
+    background: #fff;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    transform: translateX(-50%);
+}
+.left img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
