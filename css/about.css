@@ -1,46 +1,18 @@
-section{
-    padding: 100px 0;
-}
-.about{
+.about, .services, .skills{
     font-family: 'Poppins';
-}
-.about .title{
-    position: relative;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 600;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
-    font-family: 'Ubuntu';
-}
-.about .title::before{
-    content: "";
-    position: absolute;
-    width: 180px;
-    height: 4px;
-    background: #111;
-    bottom: 0px;
-    left: 50%;
-    transform: translateX(-50%);
 }
 .about .title::after{
     content: "Who I am";
-    position: absolute;
-    background: #fff;
-    bottom: -12px;
-    left: 50%;
-    font-size: 20px;
-    color: crimson;
-    padding: 5px;
-    transform: translateX(-50%);
-}
+} 
 .left img{
     width: 400px;
     height: 400px;
     object-fit: cover;
     border-radius: 6px;
 }
-.about .about-content{
+.about .about-content, 
+.services .serv-content,
+.skills .skills-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -75,4 +47,37 @@ section{
 .about .about-content .right a:hover{
     color: crimson;
     background: none;
+}
+/* All similar content styling code */
+section{
+    padding: 100px 0;
+}
+section .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu';
+}
+section .title::before{
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 4px;
+    background: #111;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+section .title::after{
+    position: absolute;
+    background: #fff;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    transform: translateX(-50%);
 }
