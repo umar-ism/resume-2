@@ -1,11 +1,13 @@
-.services{
+.services, .teams{
     color: #fff;
     background: #222222;
 }
-.services .title::before{
+.services .title::before,
+.teams .title::before{
     background: #fff;
 }
-.services .title::after{
+.services .title::after,
+.teams .title::after{
     background: #222222;
     content: "What I provide";
 }
