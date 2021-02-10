@@ -44,6 +44,7 @@
     display: inline-block;
 } 
 .navbar .menu li a{
+    display: block;
     color: #fff;
     font-weight: 500;
     font-size: 18px;

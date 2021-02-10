@@ -1,4 +1,7 @@
-.about, .services, .skills, .teams{
+html{
+    scroll-behavior: smooth;
+}
+.about, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins';
 }
 .about .title::after{
@@ -12,7 +15,8 @@
 }
 .about .about-content, 
 .services .serv-content,
-.skills .skills-content{
+.skills .skills-content,
+.contact .contact-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
