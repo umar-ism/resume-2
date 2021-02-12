@@ -1,11 +1,4 @@
-.services, .teams{
-    color: #fff;
-    background: #222222;
-}
-.services .title::before,
-.teams .title::before{
-    background: #fff;
-}
+
 .services .title::after,
 .teams .title::after{
     background: #222222;

@@ -72,7 +72,7 @@
         max-width: 800px;
     }
     .services .max-width .serv-content .card{
-        width: calc(50% - 10px);
+        width: 100%;
         margin-bottom: 20px;
     }
     .skills .max-width .skills-content .column,

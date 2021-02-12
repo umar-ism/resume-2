@@ -1,6 +1,11 @@
 .skills .title::after{
     content: "What I know";
 }
+.skills .skills-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
